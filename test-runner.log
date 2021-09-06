@@ -1,0 +1,687 @@
+2021-09-06 12:51:53 info: ---------------------------------------------
+2021-09-06 12:51:53 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-06 12:51:53 info: ---------------------------------------------
+2021-09-06 12:51:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    ✕ HTML should be syntactically valid (88 ms)
+    ✓ should use `fetch()` (1 ms)
+    ✓ should use async/wait
+    ✓ should use try/catch
+
+  ● programmerFun › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      7:10  error  <h1> cannot be empty, must have text content  empty-heading·
+    ✖ 1 problem (1 error, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/empty-heading.html·
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 |
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:42:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.464 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-06 12:51:58 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  31:3  warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+  37:3  warning  Please do not use `innerHTML` in the homework. Use `textContent` and/or `document.createElement()` instead  no-restricted-syntax
+  39:3  warning  The homework tests do not support `innerText`. Please replace with `textContent`                            no-restricted-syntax
+
+✖ 3 problems (0 errors, 3 warnings)
+
+
+2021-09-06 12:57:17 info: Disclaimer turned off
+2021-09-06 12:57:36 info: ------------------------------------------
+2021-09-06 12:57:36 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 12:57:36 info: ------------------------------------------
+2021-09-06 12:57:39 error: *** Unit Test Error Report ***
+
+  console.error
+    Unhandled error
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:248:21)
+
+  console.error
+    TypeError: console.err is not a function
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:63:13)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:249:21)
+
+
+2021-09-06 12:57:40 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  25:1   warning  Remove commented-out code                                                         hyf/no-commented-out-code
+  39:12  warning  'pokemon' is never reassigned. Use 'const' instead                                no-autofix/prefer-const
+  42:5   warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+  71:3   warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+
+✖ 4 problems (0 errors, 4 warnings)
+
+
+2021-09-06 01:00:10 info: ------------------------------------------
+2021-09-06 01:00:10 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:00:10 info: ------------------------------------------
+2021-09-06 01:00:13 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:29:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:60:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:00:14 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  25:1   warning  Remove commented-out code                                                         hyf/no-commented-out-code
+  39:12  warning  'pokemon' is never reassigned. Use 'const' instead                                no-autofix/prefer-const
+  42:5   warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+  71:3   warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+
+✖ 4 problems (0 errors, 4 warnings)
+
+
+2021-09-06 01:02:12 info: ------------------------------------------
+2021-09-06 01:02:12 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:02:12 info: ------------------------------------------
+2021-09-06 01:02:15 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:02:16 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  37:12  warning  'pokemon' is never reassigned. Use 'const' instead  no-autofix/prefer-const
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-06 01:03:04 info: ------------------------------------------
+2021-09-06 01:03:04 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:03:04 info: ------------------------------------------
+2021-09-06 01:03:07 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:28:54 info: ---------------------------------------------
+2021-09-06 01:28:54 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-06 01:28:54 info: ---------------------------------------------
+2021-09-06 01:28:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    ✕ HTML should be syntactically valid (75 ms)
+    ✓ should use `fetch()`
+    ✓ should use async/wait (1 ms)
+    ✓ should use try/catch
+
+  ● programmerFun › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      11:2  error  <h1> cannot be empty, must have text content  empty-heading·
+    ✖ 1 problem (1 error, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/empty-heading.html·
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 |
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:42:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.137 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-06 01:28:58 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  37:3  warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-06 01:32:18 info: ---------------------------------------------
+2021-09-06 01:32:18 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-06 01:32:18 info: ---------------------------------------------
+2021-09-06 01:32:21 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    ✕ HTML should be syntactically valid (90 ms)
+    ✓ should use `fetch()` (1 ms)
+    ✓ should use async/wait
+    ✓ should use try/catch
+
+  ● programmerFun › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+       6:28  error  Attribute \"defer\" should omit value           attribute-boolean-style
+      10:2   error  <h1> cannot be empty, must have text content  empty-heading·
+    ✖ 2 problems (2 errors, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/attribute-boolean-style.html
+      https://html-validate.org/rules/empty-heading.html·
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 |
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:42:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.15 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-06 01:32:22 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  37:3  warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-06 01:34:44 info: ---------------------------------------------
+2021-09-06 01:34:44 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-06 01:34:44 info: ---------------------------------------------
+2021-09-06 01:34:48 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    ✕ HTML should be syntactically valid (87 ms)
+    ✓ should use `fetch()`
+    ✓ should use async/wait
+    ✓ should use try/catch
+
+  ● programmerFun › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+       6:28  error  Attribute \"defer\" should omit value           attribute-boolean-style
+      10:2   error  <h1> cannot be empty, must have text content  empty-heading·
+    ✖ 2 problems (2 errors, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/attribute-boolean-style.html
+      https://html-validate.org/rules/empty-heading.html·
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 |
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:42:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.226 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-06 01:34:49 error: *** ESLint Report ***
+
+ex1-programmerFun/index.js
+  37:3  warning  The homework tests do not support `innerText`. Please replace with `textContent`  no-restricted-syntax
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-06 01:36:13 info: ---------------------------------------------
+2021-09-06 01:36:13 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-06 01:36:13 info: ---------------------------------------------
+2021-09-06 01:36:16 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex1-programmerFun.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js
+  programmerFun
+    ✕ HTML should be syntactically valid (89 ms)
+    ✓ should use `fetch()`
+    ✓ should use async/wait
+    ✓ should use try/catch
+
+  ● programmerFun › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      6:28  error  Attribute \"defer\" should omit value  attribute-boolean-style·
+    ✖ 1 problem (1 error, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/attribute-boolean-style.html·
+    "
+
+      40 |   const report = htmlValidate.validateString(htmlText);
+      41 |   const validationReport = stylish(report);
+    > 42 |   expect(validationReport).toBe('');
+         |                            ^
+      43 | }
+      44 |
+      45 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:42:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex1-programmerFun.test.js:42:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.154 s
+Ran all test suites matching /ex1-programmerFun.test.js/i.
+
+2021-09-06 01:36:32 info: ---------------------------------------------
+2021-09-06 01:36:32 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-06 01:36:32 info: ---------------------------------------------
+2021-09-06 01:36:34 info: All unit tests passed.
+2021-09-06 01:36:36 info: All steps were completed successfully
+2021-09-06 01:37:03 info: ---------------------------------------------
+2021-09-06 01:37:03 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-06 01:37:03 info: ---------------------------------------------
+2021-09-06 01:37:06 info: All unit tests passed.
+2021-09-06 01:37:08 info: All steps were completed successfully
+2021-09-06 01:41:11 info: ------------------------------------------
+2021-09-06 01:41:11 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:41:11 info: ------------------------------------------
+2021-09-06 01:41:14 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:47:36 info: ------------------------------------------
+2021-09-06 01:47:36 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:47:36 info: ------------------------------------------
+2021-09-06 01:47:40 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:48:25 info: ------------------------------------------
+2021-09-06 01:48:25 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:48:25 info: ------------------------------------------
+2021-09-06 01:48:28 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:54:34 info: ------------------------------------------
+2021-09-06 01:54:34 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:54:34 info: ------------------------------------------
+2021-09-06 01:54:37 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:56:52 info: ------------------------------------------
+2021-09-06 01:56:52 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:56:52 info: ------------------------------------------
+2021-09-06 01:56:55 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [ReferenceError: require is not defined]
+        at reportException (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+        at processJavaScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at ResourceQueue.resume (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:139:12)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:468:26
+        at new Promise (<anonymous>)
+        at onDOMContentLoad (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:456:14)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:83:27
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) ReferenceError: require is not defined
+        at file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:23:15
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:294:6)
+        at processJavaScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at ResourceQueue.resume (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:139:12)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:468:26
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-09-06 01:57:33 info: ------------------------------------------
+2021-09-06 01:57:33 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:57:33 info: ------------------------------------------
+2021-09-06 01:57:36 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 01:58:33 info: ------------------------------------------
+2021-09-06 01:58:33 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 01:58:33 info: ------------------------------------------
+2021-09-06 01:58:36 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [ReferenceError: global is not defined]
+        at reportException (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+        at processJavaScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at ResourceQueue.resume (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:139:12)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:468:26
+        at new Promise (<anonymous>)
+        at onDOMContentLoad (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:456:14)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:83:27
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) ReferenceError: global is not defined
+        at file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:23:1
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:294:6)
+        at processJavaScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at ResourceQueue.resume (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:139:12)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:468:26
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-09-06 02:00:34 info: ------------------------------------------
+2021-09-06 02:00:34 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 02:00:34 info: ------------------------------------------
+2021-09-06 02:00:38 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 02:02:34 info: ------------------------------------------
+2021-09-06 02:02:34 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-06 02:02:34 info: ------------------------------------------
+2021-09-06 02:02:38 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-06 09:46:54 info: --------------------------------------------
+2021-09-06 09:46:54 info: >>> Running Unit Test `ex4-pokerDiceAll` <<<
+2021-09-06 09:46:54 info: --------------------------------------------
+2021-09-06 09:46:56 info: All unit tests passed.
+2021-09-06 09:46:58 info: All steps were completed successfully
+2021-09-06 10:50:09 info: ----------------------------------------------
+2021-09-06 10:50:09 info: >>> Running Unit Test `ex5-pokerDiceChain` <<<
+2021-09-06 10:50:09 info: ----------------------------------------------
+2021-09-06 10:50:11 info: All unit tests passed.
+2021-09-06 10:50:13 info: All steps were completed successfully
+2021-09-06 11:09:42 info: -----------------------------------------
+2021-09-06 11:09:42 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-09-06 11:09:42 info: -----------------------------------------
+2021-09-06 11:09:44 info: All unit tests passed.
+2021-09-06 11:09:45 error: *** ESLint Report ***
+
+ex3-rollAnAce.js
+  15:10  error  Unexpected constant condition               no-constant-condition
+  25:11  error  'value' is assigned a value but never used  no-unused-vars
+  26:30  error  'results' is not defined                    no-undef
+
+✖ 3 problems (3 errors, 0 warnings)
+
+
+2021-09-06 11:10:32 info: -----------------------------------------
+2021-09-06 11:10:33 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-09-06 11:10:33 info: -----------------------------------------
+2021-09-06 11:10:34 info: All unit tests passed.
+2021-09-06 11:10:35 error: *** ESLint Report ***
+
+ex3-rollAnAce.js
+  14:10  error  Unexpected constant condition               no-constant-condition
+  18:10  error  'value' is not defined                      no-undef
+  24:11  error  'value' is assigned a value but never used  no-unused-vars
+  25:30  error  'results' is not defined                    no-undef
+
+✖ 4 problems (4 errors, 0 warnings)
+
+
+2021-09-06 11:12:25 info: -----------------------------------------
+2021-09-06 11:12:25 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-09-06 11:12:25 info: -----------------------------------------
+2021-09-06 11:12:26 info: All unit tests passed.
+2021-09-06 11:12:27 error: *** ESLint Report ***
+
+ex3-rollAnAce.js
+  15:10  error  Unexpected constant condition  no-constant-condition
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2021-09-06 11:14:19 info: -----------------------------------------
+2021-09-06 11:14:19 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-09-06 11:14:19 info: -----------------------------------------
+2021-09-06 11:14:21 info: All unit tests passed.
+2021-09-06 11:14:23 info: All steps were completed successfully
+2021-09-06 11:18:54 info: ----------------------------------------
+2021-09-06 11:18:54 info: >>> Running Unit Test `ex5-vscDebug` <<<
+2021-09-06 11:18:54 info: ----------------------------------------
+2021-09-06 11:18:54 warn: A unit test file was not provided.
+2021-09-06 11:18:56 info: All steps were completed successfully
+2021-09-07 01:13:00 info: ----------------------------------------
+2021-09-07 01:13:00 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-09-07 01:13:00 info: ----------------------------------------
+2021-09-07 01:13:02 info: All unit tests passed.
+2021-09-07 01:13:04 info: All steps were completed successfully
+2021-09-07 01:13:22 info: ------------------------------------------
+2021-09-07 01:13:22 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 01:13:22 info: ------------------------------------------
+2021-09-07 01:13:25 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+

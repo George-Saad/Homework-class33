@@ -20,18 +20,64 @@ Use async/await and try/catch to handle promises.
 Try and avoid using global variables. As much as possible, try and use function 
 parameters and return values to pass data back and forth.
 ------------------------------------------------------------------------------*/
-function fetchData(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+
+const URL = 'https://pokeapi.co/api/v2/pokemon/?limit=151';
+
+async function fetchData(url) {
+  const response = await fetch(url);
+  if (response.ok) {
+    const jsonData = await response.json();
+    return jsonData;
+  } else {
+    throw new Error('HTTP ERROR ' + response.status);
+  }
 }
 
-function fetchAndPopulatePokemons(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+function fetchAndPopulatePokemons(pokemons, elementContainer) {
+  for (const pokemon of pokemons) {
+    const pokemonOptionElement = document.createElement('option');
+    pokemonOptionElement.value = pokemon.url;
+    pokemonOptionElement.textContent = pokemon.name;
+    elementContainer.appendChild(pokemonOptionElement);
+  }
 }
 
-function fetchImage(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+async function fetchImage(e, pokemonImageElement) {
+  const url = e.target.value;
+  try {
+    const results = await fetchData(url);
+    pokemonImageElement.src = results.sprites.front_default;
+  } catch (err) {
+    console.log(err);
+  }
 }
 
-function main() {
-  // TODO complete this function
+async function main() {
+  let pokemons = [];
+  try {
+    const pokemonsData = await fetchData(URL);
+    pokemons = pokemonsData.results;
+  } catch (err) {
+    console.log(err);
+  }
+
+  const bodyElement = document.querySelector('body');
+  const getPokemonsButtonElement = document.createElement('button');
+  const pokemonSelectElement = document.createElement('select');
+  const pokemonImageElement = new Image();
+
+  getPokemonsButtonElement.textContent = 'Get Pokemons!';
+  getPokemonsButtonElement.addEventListener('click', () => {
+    fetchAndPopulatePokemons(pokemons, pokemonSelectElement);
+  });
+  bodyElement.appendChild(getPokemonsButtonElement);
+
+  pokemonSelectElement.addEventListener('change', (e) => {
+    fetchImage(e, pokemonImageElement);
+  });
+  bodyElement.appendChild(pokemonSelectElement);
+
+  bodyElement.appendChild(pokemonImageElement);
 }
+
+window.addEventListener('load', main);
