@@ -42,11 +42,18 @@ function fetchAndPopulatePokemons(pokemons, elementContainer) {
   }
 }
 
-async function fetchImage(e, pokemonImageElement) {
+async function fetchImage(e, imageContainer) {
   const url = e.target.value;
   try {
     const results = await fetchData(url);
-    pokemonImageElement.src = results.sprites.front_default;
+    let pokemonImageElement = imageContainer.querySelector('img');
+    if (pokemonImageElement === null) {
+      pokemonImageElement = new Image();
+      pokemonImageElement.src = results.sprites.front_default;
+      imageContainer.appendChild(pokemonImageElement);
+    } else {
+      pokemonImageElement.src = results.sprites.front_default;
+    }
   } catch (err) {
     console.log(err);
   }
@@ -63,8 +70,8 @@ async function main() {
 
   const bodyElement = document.querySelector('body');
   const getPokemonsButtonElement = document.createElement('button');
+  getPokemonsButtonElement.setAttribute('type', 'button');
   const pokemonSelectElement = document.createElement('select');
-  const pokemonImageElement = new Image();
 
   getPokemonsButtonElement.textContent = 'Get Pokemons!';
   getPokemonsButtonElement.addEventListener('click', () => {
@@ -73,11 +80,9 @@ async function main() {
   bodyElement.appendChild(getPokemonsButtonElement);
 
   pokemonSelectElement.addEventListener('change', (e) => {
-    fetchImage(e, pokemonImageElement);
+    fetchImage(e, bodyElement);
   });
   bodyElement.appendChild(pokemonSelectElement);
-
-  bodyElement.appendChild(pokemonImageElement);
 }
 
 window.addEventListener('load', main);

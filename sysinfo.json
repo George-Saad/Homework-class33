@@ -1,0 +1,50 @@
+{
+  "node": "v14.17.5",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "MacBookPro17,1"
+  },
+  "cpu": {
+    "manufacturer": "Apple",
+    "brand": "M1",
+    "speed": 2.4
+  },
+  "memory": "8 GB",
+  "osInfo": {
+    "platform": "darwin",
+    "distro": "macOS",
+    "release": "11.5.2"
+  },
+  "vscodeInfo": {
+    "version": "1.60.0",
+    "extensions": [
+      "CoenraadS.bracket-pair-colorizer",
+      "esbenp.prettier-vscode",
+      "evgeniypeshkov.syntax-highlighter",
+      "hdg.live-html-previewer",
+      "ms-edgedevtools.vscode-edge-devtools",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "ms-toolsai.jupyter",
+      "ms-toolsai.jupyter-keymap",
+      "ritwickdey.LiveServer",
+      "tomblind.scm-buttons-vscode",
+      "WallabyJs.quokka-vscode",
+      "xabikos.JavaScriptSnippets"
+    ],
+    "userSettings": {
+      "editor.detectIndentation": false,
+      "editor.formatOnSave": true,
+      "editor.minimap.enabled": false,
+      "editor.renderIndentGuides": true,
+      "editor.tabSize": 2,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "eslint.autoFixOnSave": true,
+      "files.autoSave": "onFocusChange",
+      "prettier.singleQuote": true,
+      "prettier.trailingComma": "all"
+    }
+  }
+}

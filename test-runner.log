@@ -685,3 +685,1292 @@ ex3-rollAnAce.js
       at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
 
 
+2021-09-07 09:21:06 info: ---------------------------------------------
+2021-09-07 09:21:06 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-07 09:21:06 info: ---------------------------------------------
+2021-09-07 09:21:10 info: All unit tests passed.
+2021-09-07 09:21:12 info: All steps were completed successfully
+2021-09-07 09:21:21 info: -----------------------------------------
+2021-09-07 09:21:21 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-09-07 09:21:21 info: -----------------------------------------
+2021-09-07 09:21:22 info: All unit tests passed.
+2021-09-07 09:21:24 info: All steps were completed successfully
+2021-09-07 09:21:33 info: ----------------------------------------
+2021-09-07 09:21:33 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-09-07 09:21:33 info: ----------------------------------------
+2021-09-07 09:21:35 info: All unit tests passed.
+2021-09-07 09:21:37 info: All steps were completed successfully
+2021-09-07 09:21:46 info: ------------------------------------------
+2021-09-07 09:21:46 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 09:21:46 info: ------------------------------------------
+2021-09-07 09:21:49 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-07 11:00:00 info: ------------------------------------------
+2021-09-07 11:00:00 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:00:00 info: ------------------------------------------
+2021-09-07 11:00:03 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-07 11:04:26 info: ------------------------------------------
+2021-09-07 11:04:26 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:04:26 info: ------------------------------------------
+2021-09-07 11:04:29 error: *** Unit Test Error Report ***
+
+  console.error
+    Error: Uncaught [ReferenceError: require is not defined]
+        at reportException (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+        at processJavaScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+        at HTMLScriptElementImpl._innerEval (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at ResourceQueue.resume (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:139:12)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:468:26
+        at new Promise (<anonymous>)
+        at onDOMContentLoad (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:456:14)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:83:27
+        at processTicksAndRejections (internal/process/task_queues.js:95:5) ReferenceError: require is not defined
+        at file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:23:15
+        at Script.runInContext (vm.js:144:12)
+        at Object.runInContext (vm.js:294:6)
+        at processJavaScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:241:10)
+        at HTMLScriptElementImpl._innerEval (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+        at onLoadExternalScript (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+        at onLoadWrapped (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+        at Object.check (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:76:23)
+        at ResourceQueue.resume (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/resources/resource-queue.js:139:12)
+        at /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/nodes/Document-impl.js:468:26
+
+      at VirtualConsole.<anonymous> (node_modules/jsdom/lib/jsdom/virtual-console.js:29:45)
+      at reportException (node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:70:28)
+      at processJavaScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:243:7)
+      at HTMLScriptElementImpl._innerEval (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:176:5)
+      at onLoadExternalScript (node_modules/jsdom/lib/jsdom/living/nodes/HTMLScriptElement-impl.js:98:12)
+      at onLoadWrapped (node_modules/jsdom/lib/jsdom/browser/resources/per-document-resource-loader.js:53:33)
+
+
+2021-09-07 11:28:24 info: ------------------------------------------
+2021-09-07 11:28:24 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:28:24 info: ------------------------------------------
+2021-09-07 11:28:28 error: *** Unit Test Error Report ***
+
+  console.log
+    fetch is not defined
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-07 11:29:57 info: ------------------------------------------
+2021-09-07 11:29:57 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:29:57 info: ------------------------------------------
+2021-09-07 11:30:01 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-07 11:48:54 info: ------------------------------------------
+2021-09-07 11:48:54 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:48:54 info: ------------------------------------------
+2021-09-07 11:48:57 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (47 ms)
+    ✕ should use `fetch()` (2 ms)
+    ✕ should use `await fetch()`
+    ✕ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `fetch()`
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `fetch()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      38 |
+      39 |   test('should use `fetch()`', () => {
+    > 40 |     expect(state.fetch).toBeDefined();
+         |                         ^
+      41 |   });
+      42 |
+      43 |   test('should use `await fetch()`', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:25)
+
+  ● pokemonApp › should use `await fetch()`
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `await fetch()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      42 |
+      43 |   test('should use `await fetch()`', () => {
+    > 44 |     expect(state.awaitFetch).toBeDefined();
+         |                              ^
+      45 |   });
+      46 |
+      47 |   test('should use try/catch', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:44:30)
+
+  ● pokemonApp › should use try/catch
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use try/catch
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      46 |
+      47 |   test('should use try/catch', () => {
+    > 48 |     expect(state.tryCatch).toBeDefined();
+         |                            ^
+      49 |   });
+      50 | });
+      51 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:48:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 4 total
+Snapshots:   0 total
+Time:        1.857 s, estimated 2 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)".
+
+      at fetchData (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+      at main (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+      at callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+      at EventTargetImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+      at fireAnEvent (node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+      at Document.<anonymous> (node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+      at Document.callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)".
+      at console.log (node_modules/@jest/console/build/CustomConsole.js:185:10)
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+      at Object.log (node_modules/jsdom/lib/jsdom/browser/Window.js:838:30)
+      at main (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:61:13)
+
+
+2021-09-07 11:49:46 info: ------------------------------------------
+2021-09-07 11:49:46 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:49:46 info: ------------------------------------------
+2021-09-07 11:49:49 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (50 ms)
+    ✕ should use `fetch()` (2 ms)
+    ✕ should use `await fetch()` (1 ms)
+    ✕ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `fetch()`
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `fetch()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      38 |
+      39 |   test('should use `fetch()`', () => {
+    > 40 |     expect(state.fetch).toBeDefined();
+         |                         ^
+      41 |   });
+      42 |
+      43 |   test('should use `await fetch()`', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:25)
+
+  ● pokemonApp › should use `await fetch()`
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `await fetch()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      42 |
+      43 |   test('should use `await fetch()`', () => {
+    > 44 |     expect(state.awaitFetch).toBeDefined();
+         |                              ^
+      45 |   });
+      46 |
+      47 |   test('should use try/catch', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:44:30)
+
+  ● pokemonApp › should use try/catch
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use try/catch
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      46 |
+      47 |   test('should use try/catch', () => {
+    > 48 |     expect(state.tryCatch).toBeDefined();
+         |                            ^
+      49 |   });
+      50 | });
+      51 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:48:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 4 total
+Snapshots:   0 total
+Time:        1.739 s, estimated 2 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)".
+
+      at fetchData (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+      at main (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+      at callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+      at EventTargetImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+      at fireAnEvent (node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+      at Document.<anonymous> (node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+      at Document.callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)".
+      at console.log (node_modules/@jest/console/build/CustomConsole.js:185:10)
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+      at Object.log (node_modules/jsdom/lib/jsdom/browser/Window.js:838:30)
+      at main (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:61:13)
+
+
+2021-09-07 11:56:42 info: ------------------------------------------
+2021-09-07 11:56:42 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:56:42 info: ------------------------------------------
+2021-09-07 11:56:45 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (51 ms)
+    ✕ should use `fetch()` (2 ms)
+    ✕ should use `await fetch()`
+    ✕ should use try/catch (1 ms)
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `fetch()`
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `fetch()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      38 |
+      39 |   test('should use `fetch()`', () => {
+    > 40 |     expect(state.fetch).toBeDefined();
+         |                         ^
+      41 |   });
+      42 |
+      43 |   test('should use `await fetch()`', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:40:25)
+
+  ● pokemonApp › should use `await fetch()`
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use `await fetch()`
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      42 |
+      43 |   test('should use `await fetch()`', () => {
+    > 44 |     expect(state.awaitFetch).toBeDefined();
+         |                              ^
+      45 |   });
+      46 |
+      47 |   test('should use try/catch', () => {
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:44:30)
+
+  ● pokemonApp › should use try/catch
+
+    Jest encountered an unexpected token
+
+    This usually means that you are trying to import a file which Jest cannot parse, e.g. it's not plain JavaScript.
+
+    By default, if Jest sees a Babel config, it will use that to transform your files, ignoring "node_modules".
+
+    Here's what you can do:
+     • If you are trying to use ECMAScript Modules, see https://jestjs.io/docs/en/ecmascript-modules for how to enable it.
+     • To have some of your "node_modules" files transformed, you can specify a custom "transformIgnorePatterns" in your config.
+     • If you need a custom transformation specify a "transform" option in your config.
+     • If you simply want to mock your non-JS modules (e.g. binary assets) you can stub them out with the "moduleNameMapper" config option.
+
+    You'll find more details and examples of these config options in the docs:
+    https://jestjs.io/docs/en/configuration.html
+
+    Details:
+
+    /Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/node-fetch/src/index.js:9
+    import http from 'http';
+    ^^^^^^
+
+    SyntaxError: Cannot use import statement outside a module
+
+      30 |   );
+      31 |
+    > 32 |   window.fetch = require('node-fetch');
+         |                  ^
+      33 |   await sleep(500);
+      34 |   return window;
+      35 | }
+
+      at Runtime.createScriptFromCode (node_modules/jest-runtime/build/index.js:1350:14)
+      at prepare (test-runner/jsdom-helpers.js:32:18)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:11:26)
+
+  ● pokemonApp › should use try/catch
+
+    expect(received).toBeDefined()
+
+    Received: undefined
+
+      46 |
+      47 |   test('should use try/catch', () => {
+    > 48 |     expect(state.tryCatch).toBeDefined();
+         |                            ^
+      49 |   });
+      50 | });
+      51 |
+
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:48:28)
+
+Test Suites: 1 failed, 1 total
+Tests:       4 failed, 4 total
+Snapshots:   0 total
+Time:        1.751 s, estimated 2 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+  ●  Cannot log after tests are done. Did you forget to wait for something async in your test?
+    Attempted to log "ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)".
+
+      at fetchData (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+      at main (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+      at callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+      at invokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+      at EventTargetImpl._dispatch (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+      at fireAnEvent (node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+      at Document.<anonymous> (node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+      at Document.callTheUserObjectsOperation (node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+      at innerInvokeEventListeners (node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)".
+      at console.log (node_modules/@jest/console/build/CustomConsole.js:185:10)
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+      at Object.log (node_modules/jsdom/lib/jsdom/browser/Window.js:838:30)
+      at main (file:/Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:61:13)
+
+(node:1854) UnhandledPromiseRejectionWarning: TypeError: getPokemonsButtonElement.addAttribute is not a function
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1854) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:1854) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+2021-09-07 11:56:47 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 11:57:09 info: ------------------------------------------
+2021-09-07 11:57:09 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 11:57:09 info: ------------------------------------------
+2021-09-07 11:57:12 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.error
+    Unhandled error
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:248:21)
+
+  console.error
+    TypeError: getPokemonsButtonElement.addAttribute is not a function
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:66:28)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:249:21)
+
+
+2021-09-07 11:57:14 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 12:00:09 info: ------------------------------------------
+2021-09-07 12:00:09 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:00:09 info: ------------------------------------------
+2021-09-07 12:00:12 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+  console.error
+    Unhandled error
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:248:21)
+
+  console.error
+    TypeError: getPokemonsButtonElement.addAttribute is not a function
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:66:28)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:249:21)
+
+
+2021-09-07 12:00:14 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 12:00:43 info: ------------------------------------------
+2021-09-07 12:00:43 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:00:43 info: ------------------------------------------
+2021-09-07 12:00:46 error: *** Unit Test Error Report ***
+
+  console.error
+    Unhandled error
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:248:21)
+
+  console.error
+    TypeError: getPokemonsButtonElement.addAttribute is not a function
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:66:28)
+        at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+      at process.uncaught (node_modules/jest-jasmine2/build/jasmine/Env.js:249:21)
+
+
+2021-09-07 12:00:48 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 12:01:40 info: ------------------------------------------
+2021-09-07 12:01:40 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:01:40 info: ------------------------------------------
+2021-09-07 12:01:43 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (91 ms)
+    ✓ should use `fetch()`
+    ✓ should use `await fetch()`
+    ✓ should use try/catch (1 ms)
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      7:28  error  Attribute \"defer\" should omit value  attribute-boolean-style·
+    ✖ 1 problem (1 error, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/attribute-boolean-style.html·
+    "
+
+      41 |   const report = htmlValidate.validateString(htmlText);
+      42 |   const validationReport = stylish(report);
+    > 43 |   expect(validationReport).toBe('');
+         |                            ^
+      44 | }
+      45 |
+      46 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:43:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:37:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.087 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-09-07 12:01:45 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 12:04:20 info: ------------------------------------------
+2021-09-07 12:04:20 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:04:20 info: ------------------------------------------
+2021-09-07 12:04:23 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (89 ms)
+    ✓ should use `fetch()` (1 ms)
+    ✓ should use `await fetch()`
+    ✓ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      7:28  error  Attribute \"defer\" should omit value  attribute-boolean-style·
+    ✖ 1 problem (1 error, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/attribute-boolean-style.html·
+    "
+
+      41 |   const report = htmlValidate.validateString(htmlText);
+      42 |   const validationReport = stylish(report);
+    > 43 |   expect(validationReport).toBe('');
+         |                            ^
+      44 | }
+      45 |
+      46 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:43:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:37:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.067 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-09-07 12:04:25 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 12:04:44 info: ------------------------------------------
+2021-09-07 12:04:44 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:04:44 info: ------------------------------------------
+2021-09-07 12:04:47 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (92 ms)
+    ✓ should use `fetch()`
+    ✓ should use `await fetch()`
+    ✓ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      7:28  error  Attribute \"defer\" should omit value         attribute-boolean-style
+      7:35  error  Attribute \"defer\" has invalid value \"true\"  attribute-allowed-values·
+    ✖ 2 problems (2 errors, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/attribute-boolean-style.html
+      https://html-validate.org/rules/attribute-allowed-values.html·
+    "
+
+      41 |   const report = htmlValidate.validateString(htmlText);
+      42 |   const validationReport = stylish(report);
+    > 43 |   expect(validationReport).toBe('');
+         |                            ^
+      44 | }
+      45 |
+      46 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:43:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:37:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.064 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-09-07 12:04:49 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 12:05:23 info: ------------------------------------------
+2021-09-07 12:05:23 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:05:23 info: ------------------------------------------
+2021-09-07 12:05:26 info: All unit tests passed.
+2021-09-07 12:05:28 error: *** Spell Checker Report ***
+
+ex2-pokemonApp/index.js:69:41 - Unknown word (unvalid)
+
+2021-09-07 12:05:54 info: ------------------------------------------
+2021-09-07 12:05:54 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:05:54 info: ------------------------------------------
+2021-09-07 12:05:57 info: All unit tests passed.
+2021-09-07 12:05:59 info: All steps were completed successfully
+2021-09-07 12:06:19 info: ------------------------------------------
+2021-09-07 12:06:19 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:06:19 info: ------------------------------------------
+2021-09-07 12:06:22 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (90 ms)
+    ✓ should use `fetch()`
+    ✓ should use `await fetch()`
+    ✓ should use try/catch
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      12:63  error  <img> is missing required \"alt\" attribute  wcag/h37·
+    ✖ 1 problem (1 error, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/wcag/h37.html·
+    "
+
+      41 |   const report = htmlValidate.validateString(htmlText);
+      42 |   const validationReport = stylish(report);
+    > 43 |   expect(validationReport).toBe('');
+         |                            ^
+      44 | }
+      45 |
+      46 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:43:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:37:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.067 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-09-07 12:06:23 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  70:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-07 12:07:06 info: ---------------------------------------------
+2021-09-07 12:07:06 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-07 12:07:06 info: ---------------------------------------------
+2021-09-07 12:07:09 info: All unit tests passed.
+2021-09-07 12:07:10 info: All steps were completed successfully
+2021-09-07 12:07:30 info: ------------------------------------------
+2021-09-07 12:07:30 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:07:30 info: ------------------------------------------
+2021-09-07 12:07:33 error: *** Unit Test Error Report ***
+
+Command failed: npx jest ex2-pokemonApp.test.js --colors
+ FAIL  3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js
+  pokemonApp
+    ✕ HTML should be syntactically valid (91 ms)
+    ✓ should use `fetch()`
+    ✓ should use `await fetch()`
+    ✓ should use try/catch (1 ms)
+
+  ● pokemonApp › HTML should be syntactically valid
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: ""
+    Received: "
+    inline
+      12:63  error  <img> is missing required \"alt\" attribute  wcag/h37·
+    ✖ 1 problem (1 error, 0 warnings)·
+    More information:
+      https://html-validate.org/rules/wcag/h37.html·
+    "
+
+      41 |   const report = htmlValidate.validateString(htmlText);
+      42 |   const validationReport = stylish(report);
+    > 43 |   expect(validationReport).toBe('');
+         |                            ^
+      44 | }
+      45 |
+      46 | module.exports = {
+
+      at validateHTML (test-runner/jsdom-helpers.js:43:28)
+      at Object.<anonymous> (3-UsingAPIs/Week2/unit-tests/ex2-pokemonApp.test.js:37:5)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 3 passed, 4 total
+Snapshots:   0 total
+Time:        2.123 s
+Ran all test suites matching /ex2-pokemonApp.test.js/i.
+
+2021-09-07 12:07:34 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  70:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-07 12:07:49 info: ------------------------------------------
+2021-09-07 12:07:49 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:07:49 info: ------------------------------------------
+2021-09-07 12:07:52 error: *** Unit Test Error Report ***
+
+  console.log
+    ReferenceError: fetch is not defined
+        at fetchData (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:27:20)
+        at main (file:///Users/george/Desktop/Courses/HYF/Homework-class33/3-UsingAPIs/Week2/homework/ex2-pokemonApp/index.js:58:32)
+        at callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+        at invokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:274:3)
+        at EventTargetImpl._dispatch (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:221:9)
+        at fireAnEvent (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+        at Document.<anonymous> (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/browser/Window.js:916:9)
+        at Document.callTheUserObjectsOperation (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+        at innerInvokeEventListeners (/Users/george/Desktop/Courses/HYF/Homework-class33/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:338:25)
+
+      at VirtualConsole.onMethodCall (node_modules/jsdom/lib/jsdom/virtual-console.js:22:29)
+
+
+2021-09-07 12:07:53 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  70:3  warning  Remove commented-out code  hyf/no-commented-out-code
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+2021-09-07 12:13:56 info: ---------------------------------------------
+2021-09-07 12:13:56 info: >>> Running Unit Test `ex1-programmerFun` <<<
+2021-09-07 12:13:56 info: ---------------------------------------------
+2021-09-07 12:14:00 info: All unit tests passed.
+2021-09-07 12:14:02 info: All steps were completed successfully
+2021-09-07 12:14:35 info: -----------------------------------------
+2021-09-07 12:14:35 info: >>> Running Unit Test `ex3-rollAnAce` <<<
+2021-09-07 12:14:35 info: -----------------------------------------
+2021-09-07 12:14:37 info: All unit tests passed.
+2021-09-07 12:14:38 info: All steps were completed successfully
+2021-09-07 12:14:46 info: ----------------------------------------
+2021-09-07 12:14:46 info: >>> Running Unit Test `ex4-diceRace` <<<
+2021-09-07 12:14:46 info: ----------------------------------------
+2021-09-07 12:14:47 info: All unit tests passed.
+2021-09-07 12:14:49 info: All steps were completed successfully
+2021-09-07 12:35:56 info: ------------------------------------------
+2021-09-07 12:35:56 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:35:56 info: ------------------------------------------
+2021-09-07 12:36:00 info: All unit tests passed.
+2021-09-07 12:36:01 error: *** ESLint Report ***
+
+ex2-pokemonApp/index.js
+  47:3   error  Unexpected 'debugger' statement       no-debugger
+  88:27  error  'pokemonImageElement' is not defined  no-undef
+
+✖ 2 problems (2 errors, 0 warnings)
+
+
+2021-09-07 12:38:32 info: ------------------------------------------
+2021-09-07 12:38:32 info: >>> Running Unit Test `ex2-pokemonApp` <<<
+2021-09-07 12:38:32 info: ------------------------------------------
+2021-09-07 12:38:35 info: All unit tests passed.
+2021-09-07 12:38:37 info: All steps were completed successfully
